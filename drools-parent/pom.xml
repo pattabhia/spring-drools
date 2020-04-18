@@ -16,6 +16,9 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <drools-decisiontables.version>7.36.0.20200331</drools-decisiontables.version>
+        <drools-core.version>7.36.0.20200331</drools-core.version>
+        <drools-compiler.version>7.36.0.20200331</drools-compiler.version>
     </properties>
 
     <dependencies>
@@ -46,6 +49,23 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-decisiontables</artifactId>
+            <version>${drools-decisiontables.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-core</artifactId>
+            <version>${drools-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-compiler</artifactId>
+            <version>${drools-compiler.version}</version>
         </dependency>
 
     </dependencies>
